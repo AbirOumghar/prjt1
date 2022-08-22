@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prediction de consommation electique</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+	<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<div class="img"></div>
+<form class="form">
+	<h2> Moyenne_saisonniere (La moyenne sisonniere predite)</h2>
+    <input class="area"  type="text" id="uimoyenne_saisonniere" class="floatLabel" name="moyenne_saisonniere" value="1000">	</form>
+
+<form class="form">
+	<h2>heures_de_pointe</h2>
+    <input class="area"  type="text" id="uiheures_de_pointe" class="floatLabel" name="heures_de_pointe" value="">
+	</form>
+<form class="form">
+	<h2>heures_pleines</h2>
+    <input class="area"  type="text" id="uiheures_pleines" class="floatLabel" name="heures_pleines" value="">
+	</form>
+<form class="form">
+	<h2>Heures_creuses</h2>
+    <input class="area"  type="text" id="uiHeures_creuses" class="floatLabel" name="Heures_creuses" value="">
+	</form>
+<form class="form">
+		<h2>Mois</h2>
+	<div>
+  <select class="mois" name="" id="uimois">
+    <option value="" disabled="disabled" selected="selected">Choisir un mois</option>
+		<option>Janvier</option>
+        <option>Fevrier</option>
+	    <option>Mars</option>
+	    <option>Avril</option>
+	    <option>Mai</option>
+	    <option>Juin</option>
+	    <option>Juillet</option>
+	    <option>Aout</option>
+	    <option>Septembre</option>
+	    <option>Octobre</option>
+	    <option>Novembre</option>
+	    <option>Decembre</option>
+  </select>
+</div></form>
+	<form class="form">
+		<button class="soumettre" onclick="onClickedEstimatePrice()" type="button">Estimate Price</button>
+	<div id="uiEstimatedPrice" class="result">	<h2></h2> </div></form>
+</body>
+</html>

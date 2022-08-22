@@ -1,0 +1,13 @@
+GET http://localhost:80/api/item?id=99
+Accept: application/json
+GET http:
+
+<> 2022-08-19T035234.400.html
+<> 2022-08-19T035131.400.html//127.0.0.1:5000/predict_home_price
+
+GET http://127.0.0.1:5000/get_months_names
+
+
+
+###
+GET http://127.0.0.1:5000/predict_home_price

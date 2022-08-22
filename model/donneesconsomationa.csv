@@ -1,0 +1,13 @@
+Mois,Moyenne_saisonniere,Puissance_electrique_maximale_appelee_en KVA,Heures_de_pointe ,Heures_pleines,Heures_creuses 
+Janvier,183,127,127,67,99
+Fevrier,183,189,172,189,86
+Mars,183,189,172,189,86
+Avril,183,206,149,206,106
+Mai,183,283,256,283,241
+Juin,323,296,296,287,284
+Juillet,323,366,314,366,315
+Aout,323,332,325,332,322
+Septembre,323,299,298,285,299
+Octobre,183,167,167,137,166
+Novembre,183,186,186,105,114
+Decembre,183,123,123,80,84
